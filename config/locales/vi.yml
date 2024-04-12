@@ -1,0 +1,31 @@
+vi:
+  language: "Ngôn ngữ"
+  english: "Tiếng Anh"
+  vietnamese: "Tiếng Việt"
+  title: "Hướng dẫn Ruby on Rails"
+  login: "Đăng nhập"
+  home:
+    title: "Trang chủ"
+    heading: "Ứng dụng mẫu"
+    description: "đây là trang cho ứng dụng mẫu %{link}"
+    link: "Hướng dẫn Ruby on Rails"
+    sign_up: "Đăng nhập ngay!"
+  help:
+    title: "Trợ giúp"
+    heading: "Trợ giúp"
+    description_1: "Nhận trợ giúp về hướng dẫn Ruby on Rails tại"
+    help_page: "trang trợ giúp của Rails Tutorial"
+    description_2: "Để nhận trợ giúp về ứng dụng mẫu này, xem"
+    book_name: "Hướng dẫn Ruby on Rails"
+  about:
+    title: "Về chúng tôi"
+    heading: "Về chúng tôi"
+    description_1: "Hướng dẫn Ruby on Rails, một phần của các hướng dẫn Learn Enough, là một
+      cuốn sách và"
+    screencast: "dòng video hướng dẫn"
+    description_2: "để dạy phát triển web với Ruby on Rails. Đây là ứng dụng mẫu cho hướng dẫn."
+  contact:
+    title: "Liên hệ"
+    heading: "Liên hệ"
+    description: "Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
+    contact_page: "trang liên hệ"
