@@ -1,0 +1,10 @@
+home:
+  description_link: "https://www.railstutorial.org/"
+  image_link: "https://rubyonrails.org/"
+help:
+  help_page_link: "http://www.railstutorial.org/help"
+  help_book_link: "http://www.railstutorial.org/book"
+about:
+  about_screencast: "http://screencasts.railstutorial.org/"
+contact:
+  contact_page_link: "https://www.railstutorial.org/contact"

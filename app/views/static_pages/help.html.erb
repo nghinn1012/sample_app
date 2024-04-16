@@ -1,0 +1,10 @@
+<% provide :title, t("help.title") %>
+<div class="container">
+  <h1><%= t("help.heading") %></h1>
+  <p>
+    <%= t("help.description_1") %>
+    <%= link_to t("help.help_page"), Settings.help.help_page_link %>
+    <%= t("help.description_2") %>
+    <em><%= link_to t("help.book_name"), Settings.help.help_book_link %></em>
+  </p>
+</div>

@@ -31,3 +31,32 @@
 
 en:
   hello: "Hello world"
+  language: "Language"
+  english: "English"
+  vietnamese: "Vietnamese"
+  title: "Ruby on Rails Tutorial Sample App"
+  login: "Login"
+  home:
+    title: "Home"
+    heading: "Sample App"
+    description: "This is the page for the %{link} sample application."
+    link: "Ruby on Rails Tutorial"
+    sign_up: "Sign up now!"
+  help:
+    title: "Help"
+    heading: "Help"
+    description_1: "Get help on the Ruby on Rails Tutorial at the"
+    help_page: "Rails Tutorial help page"
+    description_2: "To get help on this sample app, see the"
+    book_name: "book Ruby on Rails Tutorial"
+  about:
+    title: "About"
+    heading: "About"
+    description_1: "The Ruby on Rails Tutorial, part of the family of tutorials, is a book and"
+    screencast: "screencast series"
+    description_2: "to teach web development with Ruby on Rails. This is the sample app for the tutorial."
+  contact:
+    title: "Contact"
+    heading: "Contact"
+    description: "Contact the Ruby on Rails Tutorial about the sample app at the"
+    contact_page: "contact page"
