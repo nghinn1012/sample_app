@@ -3,7 +3,7 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "3.2.2"
 gem "bootstrap-sass"
-gem "sass-rails", "5.1.0"
+gem "sass-rails", ">= 5"
 gem "sprockets-rails", "3.4.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "config"
