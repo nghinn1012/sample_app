@@ -12,5 +12,6 @@ contact:
 max_length_name: 50
 max_length_email: 250
 min_length_password: 6
+items_per_page: 10
 valid_email_regex: \A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z
 value_create: "1"

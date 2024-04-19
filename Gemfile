@@ -7,6 +7,8 @@ gem "sass-rails", ">= 5"
 gem "sprockets-rails", "3.4.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "config"
+gem "faker", "2.21.0"
+gem "pagy", "6.5.0"
 gem "rails", "~> 7.0.5"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 
