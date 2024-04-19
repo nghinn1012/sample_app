@@ -11,6 +11,16 @@ vi:
   settings: "Cài đặt"
   logout: "Đăng xuất"
   remember: "Ghi nhớ tôi trên máy tính này"
+  user_mailer:
+    hi: "Xin chào"
+    active: "Kích hoạt"
+    welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+  active:
+    subject: "Xác thực tài khoản"
+    success: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+    actived: "Tài khoản đã được kích hoạt!"
+    danger: "Liên kết kích hoạt không hợp lệ"
+    confirm: "Tài khoản chưa được kích hoạt. Hãy kiểm tra email của bạn để tìm liên kết kích hoạt."
   error:
     user_not_found: "Không tồn tại người dùng!"
     invalid_email_password_combination: "Mật khẩu không đúng!"
