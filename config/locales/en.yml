@@ -60,3 +60,22 @@ en:
     heading: "Contact"
     description: "Contact the Ruby on Rails Tutorial about the sample app at the"
     contact_page: "contact page"
+  activerecord:
+    sign_up: "Sign up"
+    create_my_account: "Create my account"
+    models:
+      user: "User"
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        gender: "Gender"
+        date_of_birth: "Date of birth"
+        password: "Password"
+        confirmation: "Confirmation"
+    flash:
+      success: "User successfully created"
+      error: "Something went wrong"
+      warning: "Not found user!"
+      notification: "The form contains"
+    gender: ["Male", "Female", "Other"]
