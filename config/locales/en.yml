@@ -41,6 +41,7 @@ en:
   profile: "Profile"
   settings: "Settings"
   logout: "Log out"
+  remember: "Remember me on this computer"
   error:
     user_not_found: "User not found!"
     invalid_email_password_combination: "Wrong password!"
@@ -81,6 +82,7 @@ en:
         date_of_birth: "Date of birth"
         password: "Password"
         confirmation: "Confirmation"
+        remember: "Remember me"
     flash:
       success: "User successfully created"
       error: "Something went wrong"

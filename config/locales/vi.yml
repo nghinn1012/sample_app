@@ -9,6 +9,7 @@ vi:
   profile: "Giới thiệu"
   settings: "Cài đặt"
   logout: "Đăng xuất"
+  remember: "Ghi nhớ tôi trên máy tính này"
   error:
     user_not_found: "Không tồn tại người dùng!"
     invalid_email_password_combination: "Mật khẩu không đúng!"
@@ -50,6 +51,7 @@ vi:
         date_of_birth: "Ngày tháng năm sinh"
         password: "Mật khẩu"
         confirmation: "Xác nhận mật khẩu"
+        remember: "Nhớ tôi"
     flash:
       success: "Đăng ký tài khoản thành công"
       error: "Có vấn đề xảy ra"
