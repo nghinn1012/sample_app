@@ -29,3 +29,22 @@ vi:
     heading: "Liên hệ"
     description: "Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
     contact_page: "trang liên hệ"
+  activerecord:
+    sign_up: "Đăng nhập"
+    create_my_account: "Tạo tài khoản"
+    models:
+      user: "Người dùng"
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        gender: "Giới tính"
+        date_of_birth: "Ngày tháng năm sinh"
+        password: "Mật khẩu"
+        confirmation: "Xác nhận mật khẩu"
+    flash:
+      success: "Đăng ký tài khoản thành công"
+      error: "Có vấn đề xảy ra"
+      warning: "Không tìm thấy tài khoản!"
+      notification: "Biểu mẫu bao gồm"
+    gender: ["Nam", "Nữ", "Khác"]
