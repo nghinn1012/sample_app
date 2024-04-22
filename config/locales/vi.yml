@@ -11,6 +11,22 @@ vi:
   settings: "Cài đặt"
   logout: "Đăng xuất"
   remember: "Ghi nhớ tôi trên máy tính này"
+  forgot_password: "( quên mật khẩu )"
+  reset_password:
+    flashes:
+      password_empty: "Mật khẩu vừa nhập rỗng!"
+      success: "Cập nhật mật khẩu thành công!"
+      not_found: "Không tìm thấy người dùng!"
+      in_actived: "Người dùng này chưa xác thực!"
+      password_reset_expired: "Thay đổi mật khẩu đã quá hạn."
+    confirm: "Xác nhận đặt lại mật khẩu"
+    title: "Đặt lại mật khẩu"
+    sent: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+    not_found: "Không tìm thấy địa chỉ email"
+    subject: "Thay đổi mật khẩu"
+    submit: "Cập nhật mật khẩu"
+    description_1: "Để đặt lại mật khẩu của bạn hãy nhấp vào liên kết bên dưới:"
+    description_2: "Liên kết này sẽ hết hạn sau hai giờ. Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
   user_mailer:
     hi: "Xin chào"
     active: "Kích hoạt"

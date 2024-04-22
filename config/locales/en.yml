@@ -43,6 +43,23 @@ en:
   settings: "Settings"
   logout: "Log out"
   remember: "Remember me on this computer"
+
+  forgot_password: "( forgot password )"
+  reset_password:
+    flashes:
+      password_empty: "Passsword empty!"
+      success: "Password update successfully!"
+      not_found: "User not found!"
+      in_actived: "User is in_actived!"
+      password_reset_expired: "Password reset has expired."
+    confirm: "Confirm reset password"
+    title: "Password reset"
+    sent: "Email sent with password reset instructions"
+    not_found: "Email address not found"
+    subject: "Password reset"
+    submit: "Update password"
+    description_1: "To reset your password click the link below:"
+    description_2: "This link will expire in two hours.If you did not request your password to be reset, please ignore this email and your password will stay as it is."
   user_mailer:
     hi: "Hi"
     active: "Active"

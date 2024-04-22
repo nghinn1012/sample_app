@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
   def create
     reset_session
     log_in @user
-    user_activated? user
+    user_activated? @user
   end
 
   def destroy

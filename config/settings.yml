@@ -15,3 +15,4 @@ min_length_password: 6
 items_per_page: 10
 valid_email_regex: \A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z
 value_create: "1"
+time_expired: 2
