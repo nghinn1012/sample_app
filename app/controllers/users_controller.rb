@@ -6,6 +6,7 @@ class UsersController < ApplicationController
 
   def show
     @pagy, @microposts = pagy @user.feed, items: Settings.digit_5
+    @microposts_count = @user.microposts.count
     @user = User.find_by id: params[:id]
     return if @user
 
@@ -53,6 +54,17 @@ class UsersController < ApplicationController
     redirect_to users_path
   end
 
+  def following
+    @title = t "following"
+    @pagy, @users = pagy @user.following, items: Settings.items_per_page
+    render :show_follow
+  end
+
+  def followers
+    @title = t "follower"
+    @pagy, @users = pagy @user.followers, items: Settings.items_per_page
+    render :show_follow
+  end
   private
   def load_user
     @user = User.find_by id: params[:id]
