@@ -4,6 +4,14 @@ vi:
   vietnamese: "Tiếng Việt"
   title: "Hướng dẫn Ruby on Rails"
   login: "Đăng nhập"
+  accounts: "Tài khoản"
+  users: "Ngừoi dùng"
+  profile: "Giới thiệu"
+  settings: "Cài đặt"
+  logout: "Đăng xuất"
+  error:
+    user_not_found: "Không tồn tại người dùng!"
+    invalid_email_password_combination: "Mật khẩu không đúng!"
   home:
     title: "Trang chủ"
     heading: "Ứng dụng mẫu"

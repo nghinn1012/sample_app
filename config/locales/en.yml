@@ -36,6 +36,14 @@ en:
   vietnamese: "Vietnamese"
   title: "Ruby on Rails Tutorial Sample App"
   login: "Login"
+  accounts: "Accounts"
+  users: "Users"
+  profile: "Profile"
+  settings: "Settings"
+  logout: "Log out"
+  error:
+    user_not_found: "User not found!"
+    invalid_email_password_combination: "Wrong password!"
   home:
     title: "Home"
     heading: "Sample App"
