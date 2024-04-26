@@ -7,6 +7,7 @@ vi:
   accounts: "Tài khoản"
   users: "Ngừoi dùng"
   profile: "Giới thiệu"
+  update: "Cập nhật"
   settings: "Cài đặt"
   logout: "Đăng xuất"
   remember: "Ghi nhớ tôi trên máy tính này"
@@ -38,6 +39,20 @@ vi:
     heading: "Liên hệ"
     description: "Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
     contact_page: "trang liên hệ"
+  edit:
+    title: "Chỉnh sửa ngừoi dùng"
+    heading: "Cập nhật người dùng"
+    save: "Lưu thay đổi"
+    change_gravatar: "Thay avatar"
+    submit: "Cập nhật người dùng"
+    success: "Đã cập nhật người dùng"
+    login: "Hãy đăng nhập"
+    correct_user: "Bạn không thể chỉnh sửa người dùng này"
+  delete:
+    title: "Xóa"
+    message: "Bạn chắc chắn chứ?"
+    success: "Đã xóa tài khoản"
+    not_delete: "Xóa không thành công!"
   activerecord:
     sign_up: "Đăng nhập"
     create_my_account: "Tạo tài khoản"
@@ -58,3 +73,5 @@ vi:
       warning: "Không tìm thấy tài khoản!"
       notification: "Biểu mẫu bao gồm"
     gender: ["Nam", "Nữ", "Khác"]
+  allusers:
+    title: "Tất cả người dùng"
