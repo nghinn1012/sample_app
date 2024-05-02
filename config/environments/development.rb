@@ -3,9 +3,9 @@ require "active_support/core_ext/integer/time"
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
-  # In the development environment your application's code is reloaded any time
+  # In the development environment your application"s code is reloaded any time
   # it changes. This slows down response time but is perfect for development
-  # since you don't have to restart the web server when you make code changes.
+  # since you don"t have to restart the web server when you make code changes.
   config.cache_classes = false
 
   # Do not eager load code on boot.
@@ -36,11 +36,18 @@ Rails.application.configure do
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
 
-  # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = false
-
-  config.action_mailer.perform_caching = false
-
+  # Don"t care if the mailer can"t send.
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    :user_name => ENV["mail_user_name"],
+    :password => ENV["mail_user_password"],
+    :address => ENV["mail_address"],
+    :host => ENV["mail_host"],
+    :port => ENV["mail_port"],
+    :authentication => :login
+  }
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
@@ -49,6 +56,7 @@ Rails.application.configure do
 
   # Tell Active Support which deprecation messages to disallow.
   config.active_support.disallowed_deprecation_warnings = []
+  config.action_controller.default_url_options= {:protocol => "https"}
 
   # Raise an error on page load if there are pending migrations.
   config.active_record.migration_error = :page_load
@@ -68,3 +76,4 @@ Rails.application.configure do
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
 end
+Rails.application.routes.default_url_options[:host] = "localhost:3000"

@@ -9,7 +9,7 @@ module SessionsHelper
       @current_user ||= User.find_by id: user_id
     elsif (user_id = cookies.signed[:user_id])
       user = User.find_by id: user_id
-      if user&.authenticated?(cookies[:remember_token])
+      if user.try :authenticated?, :remember, cookies[:remember_token]
         log_in user
         @current_user = user
       end
@@ -45,5 +45,22 @@ module SessionsHelper
 
   def store_location
     session[:forwarding_url] = request.original_url if request.get?
+  end
+
+  def redirect_back_or default
+    forwarding_url = session[:forwarding_url]
+    session.delete :forwarding_url
+    redirect_to forwarding_url || default
+  end
+
+  def user_activated? user
+    if user.activated?
+      log_in user
+      params.dig(:session, :remember_me) == "1" ? remember(user) : forget(user)
+      redirect_back_or user
+    else
+      flash[:warning] = t("active.confirm")
+      render :new, status: :forbidden
+    end
   end
 end

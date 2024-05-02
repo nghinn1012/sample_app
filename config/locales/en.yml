@@ -43,6 +43,16 @@ en:
   settings: "Settings"
   logout: "Log out"
   remember: "Remember me on this computer"
+  user_mailer:
+    hi: "Hi"
+    active: "Active"
+    welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+  active:
+    subject: "Account activation"
+    success: "Please check your email to activate your account."
+    actived: "Account activated!"
+    danger: "Invalid activation link"
+    confirm: "Account not activated. Check your email for the activation link."
   error:
     user_not_found: "User not found!"
     invalid_email_password_combination: "Wrong password!"
