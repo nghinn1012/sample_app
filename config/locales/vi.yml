@@ -12,6 +12,28 @@ vi:
   logout: "Đăng xuất"
   remember: "Ghi nhớ tôi trên máy tính này"
   forgot_password: "( quên mật khẩu )"
+  micropost:
+    title: "Bài đăng ngắn"
+    posted: "Đã đăng"
+    ago: "trước."
+    delete: "Xóa"
+    confirm_delete: "Bạn chắc chắn chứ?"
+    errors:
+      content_type: "Phải là định dạng hình ảnh hợp lệ (jpeg/gif/png)"
+      alert_max_size: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một hình ảnh khác"
+  user_info:
+    my_profile: "Xem thông tin của tôi"
+    micropost_count:
+      one: "1 bài đăng"
+      other: "%{count} bài đăng"
+  micropost_form:
+      placeholder: "Điền bài viết mới..."
+      button_text: "Đăng tải"
+      flashes:
+        success: "Bài viết đã được tạo!"
+        flash_destroy_success: "Đã xóa bài đăng ngắn!"
+        flash_destroy_danger: "Xóa không thành công!"
+        flash_current_user_danger: "Không tồn tại bài đăng"
   reset_password:
     flashes:
       password_empty: "Mật khẩu vừa nhập rỗng!"
@@ -40,6 +62,7 @@ vi:
   error:
     user_not_found: "Không tồn tại người dùng!"
     invalid_email_password_combination: "Mật khẩu không đúng!"
+  feed: "Bài đăng mới nhất"
   home:
     title: "Trang chủ"
     heading: "Ứng dụng mẫu"

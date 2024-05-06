@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   Attributes = %i(name email password password_confirmation date_of_birth
 gender)
   attr_accessor :remember_token, :activation_token, :reset_token
@@ -34,6 +35,10 @@ gender)
   def remember
     self.remember_token = User.new_token
     update_column :remember_digest, User.digest(remember_token)
+  end
+
+  def feed
+    microposts.newest
   end
 
   def authenticated? attribute, token

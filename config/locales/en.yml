@@ -43,7 +43,29 @@ en:
   settings: "Settings"
   logout: "Log out"
   remember: "Remember me on this computer"
-
+  micropost:
+    title: "Microposts"
+    posted: "Posted"
+    ago: "ago."
+    delete: "Delete"
+    confirm_delete: "Are you sure?"
+    errors:
+      content_type: "Must be a valid image format(jpeg/gif/png)"
+      alert_max_size: "Maximum file size is 5MB. Please choose a smaller file."
+  feed: "Newest microposts"
+  user_info:
+    my_profile: "View my profile"
+    micropost_count:
+      one: "1 post"
+      other: "%{count} posts"
+  micropost_form:
+      placeholder: "Compose new micropost..."
+      button_text: "Post"
+      flashes:
+        success: "Microposts created!"
+        flash_destroy_success: "Deleted micropost!"
+        flash_destroy_danger: "Delete failed!"
+        flash_current_user_danger: "Micropost invalid"
   forgot_password: "( forgot password )"
   reset_password:
     flashes:

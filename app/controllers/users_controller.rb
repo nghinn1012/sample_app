@@ -5,6 +5,7 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def show
+    @pagy, @microposts = pagy @user.feed, items: Settings.digit_5
     @user = User.find_by id: params[:id]
     return if @user
 
