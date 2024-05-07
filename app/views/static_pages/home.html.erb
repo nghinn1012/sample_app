@@ -5,6 +5,9 @@
       <section class="user_info">
         <%= render "shared/user_info" %>
       </section>
+      <section class="stats">
+        <%= render "shared/stats" %>
+      </section>
       <section class="micropost_form">
         <%= render "shared/micropost_form" %>
       </section>
@@ -18,7 +21,7 @@
   <div class="center jumbotron">
     <h1><%= t("feed") %></h1>
     <h2><%= t("feed") %>
-      <%= link_to t("feed"), Settings.link.rails_home %>.
+      <%= link_to t("feed"), user_info %>.
     </h2>
     <%= link_to t(".sign_up_now"), "#", class: "btn btn-lg btn-primary" %>
   </div>

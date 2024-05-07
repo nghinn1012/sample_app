@@ -43,6 +43,8 @@ en:
   settings: "Settings"
   logout: "Log out"
   remember: "Remember me on this computer"
+  following: "Following"
+  followers: "Followers"
   micropost:
     title: "Microposts"
     posted: "Posted"
@@ -58,6 +60,13 @@ en:
     micropost_count:
       one: "1 post"
       other: "%{count} posts"
+    title:
+      following: "Users Following"
+      follower: "Users Follower"
+    action:
+      follow: "Follow"
+      unfollow: "Unfollow"
+      view_profile: "View Profile"
   micropost_form:
       placeholder: "Compose new micropost..."
       button_text: "Post"
